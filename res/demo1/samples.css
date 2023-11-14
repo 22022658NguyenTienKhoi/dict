@@ -1,0 +1,90 @@
+
+ .root {
+     -fx-background-color:#666666;
+ }
+ .buttongo {
+      -fx-background-color: #ffffcc;
+             -fx-font-size: 10px;
+             -fx-padding: 5px 16px;
+ }
+ .buttonto {
+       -fx-background-color:#ccffff;
+                    -fx-font-size: 10px;
+                    -fx-padding: 5px 16px;
+                    -fx-border-radius: 16px;
+  }
+  .textfield {
+         -fx-background-color:#ffffff;
+                      -fx-font-size: 10px;
+                      -fx-padding: 5px 16px;
+                      -fx-border-radius: 16px;
+    }
+ .other{
+ -fx-background-color:#ffcccc;
+              -fx-font-size: 10px;
+              -fx-padding: 5px 16px;
+              -fx-border-radius: 16px;
+
+ }
+.another{
+-fx-background-color: #ffcccc;
+              -fx-font-size: 10px;
+              -fx-padding: 5px 16px;
+              -fx-border-radius: 16px;
+
+}
+.another1{
+-fx-background-color:#ccccff;
+              -fx-font-size: 10px;
+              -fx-padding: 5px 16px;
+              -fx-border-radius: 16px;
+
+}
+.another2{
+-fx-background-color:#ccffcc;
+              -fx-font-size: 10px;
+              -fx-padding: 5px 16px;
+              -fx-border-radius: 16px;
+
+}
+ .incoming-bubble {
+     -fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #23d0f3ff 0.0%, #d791f9ff 50.0%, #fe7b84ff 100.0%); /* Set the background color for incoming messages */
+     -fx-padding: 8;
+     -fx-border-radius: 10;
+     -fx-background-radius: 60%;
+ }
+
+ .outgoing-bubble {
+     -fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #8000fdff 0.0%, #e103faff 100.0%); /* Set the background color for outgoing messages */
+     -fx-background-radius: 10;
+     -fx-padding: 8;
+     -fx-border-radius: 10;
+ }
+ .scroll-bar:vertical {
+     -fx-background-color: transparent; /* Transparent background */
+ }
+
+ .scroll-bar:horizontal {
+     -fx-background-color: transparent; /* Transparent background */
+ }
+
+ .scroll-bar:vertical .thumb {
+     -fx-background-color: #6699cc; /* Color of the thumb */
+     -fx-background-radius: 5;
+ }
+ .scroll-bar:horizontal .thumb {
+     -fx-background-color: #6699cc; /* Color of the thumb */
+     -fx-background-radius: 5;
+ }
+
+ .scroll-bar:vertical .track,
+ .scroll-bar:horizontal .track {
+     -fx-background-color: #e5e5e5; /* Color of the track */
+ }
+
+ .scroll-bar:vertical .increment-button,
+ .scroll-bar:horizontal .increment-button,
+ .scroll-bar:vertical .decrement-button,
+ .scroll-bar:horizontal .decrement-button {
+     -fx-background-color: transparent; /* Transparent background for arrow buttons */
+}
