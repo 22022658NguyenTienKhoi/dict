@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="392.0" prefWidth="587.0" style="-fx-background-color: white; -fx-background-radius: 32px; -fx-border-radius: 32px;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="easyquiz.QuizController">
+   <children>
+      <HBox fx:id="box" layoutX="2.0" layoutY="14.0">
+         <children>
+            <Label fx:id="quest" prefHeight="89.0" prefWidth="487.0" wrapText="true">
+               <font>
+                  <Font name="Open Sans Semibold" size="19.0" />
+               </font>
+            </Label>
+            <Button fx:id="speak" mnemonicParsing="false" onAction="#speakClicked" prefHeight="44.0" prefWidth="59.0" text="Speaker" textFill="#2e267a" />
+         </children>
+      </HBox>
+      <ScrollPane layoutX="3.0" layoutY="140.0">
+         <content>
+            <Button fx:id="opt1" mnemonicParsing="false" onAction="#opt1clicked" prefHeight="57.0" prefWidth="276.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Button" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans Semibold" size="17.0" />
+               </font>
+            </Button>
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutX="3.0" layoutY="241.0">
+         <content>
+            <Button id="opt3" fx:id="opt3" mnemonicParsing="false" onAction="#opt3clicked" prefHeight="57.0" prefWidth="276.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Button" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans Semibold" size="17.0" />
+               </font>
+            </Button>
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutX="300.0" layoutY="241.0">
+         <content>
+            <Button id="opt4" fx:id="opt4" mnemonicParsing="false" onAction="#opt4clicked" prefHeight="57.0" prefWidth="276.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Button" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans Semibold" size="17.0" />
+               </font>
+            </Button>
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutX="300.0" layoutY="140.0">
+         <content>
+            <Button id="opt2" fx:id="opt2" mnemonicParsing="false" onAction="#opt2clicked" prefHeight="57.0" prefWidth="276.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Button" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans Semibold" size="17.0" />
+               </font>
+            </Button>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
