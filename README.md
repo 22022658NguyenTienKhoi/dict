@@ -51,3 +51,5 @@ Về phần Game được triển khai dưới dạng quiz gồm câu hỏi và 
 + ngữ âm gồm phát âm và trọng âm
 
 + ngữ nghĩa gồm normal giống với cấu trúc đề thpt và special là nhìn ảnh đoán nghĩa tiếng anh của từ
+
+Ứng dụng có tham khảo source code từ các nguồn https://github.com/quangbkl/uet-dictionary, Quiz App in JavaFx | Full Project | College projects with Source code | @ayeshaganaitech, Multiple Client Chat Application using JavaFx || Code With Niloy
