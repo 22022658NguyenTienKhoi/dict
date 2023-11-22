@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="345.0" prefWidth="561.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.easyquiz.HomeController">
+   <children>
+      <Label layoutX="226.0" layoutY="84.0" text="Quizzes">
+         <font>
+            <Font name="Arial" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="playquizbtn" layoutX="20.0" layoutY="196.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="191.0" style="-fx-background-color: #003366; -fx-background-radius: 32px; -fx-border-radius: 32px;" text="phát âm" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="playquizbtn2" layoutX="20.0" layoutY="269.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="191.0" style="-fx-background-color: #003366; -fx-background-radius: 32px; -fx-border-radius: 32px;" text="trọng âm" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="playquizbtn3" layoutX="344.0" layoutY="269.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="191.0" style="-fx-background-color: #003366; -fx-background-radius: 32px; -fx-border-radius: 32px;" text="SPECIAL" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="playquizbtn4" layoutX="344.0" layoutY="196.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="191.0" style="-fx-background-color: #003366; -fx-background-radius: 32px; -fx-border-radius: 32px;" text="NORMAL" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="92.0" layoutY="156.0" style="-fx-background-color: #003366;" text="NGỮ ÂM" textFill="WHITE" />
+      <Label layoutX="399.0" layoutY="156.0" style="-fx-background-color: #003366;" text="NGHĨA CỦA TỪ" textFill="WHITE" />
+   </children>
+</AnchorPane>
