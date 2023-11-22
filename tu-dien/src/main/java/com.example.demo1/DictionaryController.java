@@ -138,7 +138,7 @@ public class DictionaryController {
             ToolsReadFile readFile = new ToolsReadFile();
             List<String> mine;
             try {
-                mine = readFile.readfile("D:\\demo1\\src\\"+user+".txt");
+                mine = readFile.readfile("D:\\dict\\tu-dien\\src\\"+user+".txt");
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
@@ -264,7 +264,7 @@ public class DictionaryController {
         public void updateItem(String item, boolean empty) {
             super.updateItem(item, empty);
             if (!empty && (item != null)) {
-                if (item.contains("br")) {
+                if (item.contains("<br>")) {
                     String htmlContent = item;
                     webEngine.loadContent(htmlContent);
                     graphic2.setAlignment(Pos.CENTER_LEFT);
