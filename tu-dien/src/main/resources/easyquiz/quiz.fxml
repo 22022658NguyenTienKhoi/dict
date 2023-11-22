@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="392.0" prefWidth="587.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.easyquiz.QuizController">
+   <children>
+      <Label fx:id="question" layoutX="34.0" layoutY="25.0" prefHeight="89.0" prefWidth="461.0" wrapText="true">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="opt1" layoutX="43.0" layoutY="168.0" mnemonicParsing="false" onAction="#opt1clicked" prefHeight="57.0" prefWidth="236.0" style="-fx-background-color: #003366;" text="Button" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Button>
+      <Button id="opt3" fx:id="opt3" layoutX="43.0" layoutY="241.0" mnemonicParsing="false" onAction="#opt3clicked" prefHeight="57.0" prefWidth="236.0" style="-fx-background-color: #003366;" text="Button" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Button>
+      <Button id="opt4" fx:id="opt4" layoutX="300.0" layoutY="241.0" mnemonicParsing="false" onAction="#opt4clicked" prefHeight="57.0" prefWidth="236.0" style="-fx-background-color: #003366;" text="Button" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Button>
+      <Button id="opt2" fx:id="opt2" layoutX="300.0" layoutY="168.0" mnemonicParsing="false" onAction="#opt2clicked" prefHeight="57.0" prefWidth="236.0" style="-fx-background-color: #003366; -fx-border-radius: 10;" text="Button" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="notifier" alignment="CENTER" contentDisplay="CENTER" layoutX="222.0" layoutY="200.0" opacity="0.0" prefHeight="57.0" prefWidth="147.0" style="-fx-background-color: FFCDD2; -fx-background-radius: 90;" text="wrong answer haha" textFill="#e80000">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="notifiertrue" alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="272.0" layoutY="111.0" opacity="0.0" prefHeight="57.0" prefWidth="114.0" style="-fx-background-color: lightgreen; -fx-background-radius: 90;" text="correct answer " textFill="#008300" textOverrun="CLIP">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="next" layoutX="553.0" layoutY="2.0" mnemonicParsing="false" onAction="#nextclicked" style="-fx-background-color: #003366;" text="Next" textFill="WHITE" />
+   </children>
+</AnchorPane>
